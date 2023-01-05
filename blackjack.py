@@ -16,21 +16,6 @@ if kullanici_1:
             if devam_mi == 1:
                 sayi2 = randint(1, 11)
                 sayi1 += sayi2
-            else:
-                if sayi1 > 21 and devam_mi == 1:
-                    print("Kartınız: ", sayi1)
-                    print("Bust! Kazanan: ", kullanici_2)
-                    exit()
-
-                if sayi1 == 21 and devam_mi == 1:
-                    print("Kartınız: ", sayi1)
-                    print("Blackjack! Kazandınız!", kullanici_1)
-                    exit()
-
-                if devam_mi != 1:
-                    print("Kartınız: ", sayi1)
-                    print("Sıranız bitti!")
-                    break
 
         if sayi1 > 21 and devam_mi == 1:
             print("Kartınız: ", sayi1)
@@ -60,21 +45,6 @@ if kullanici_2:
             if devam_mi == 1:
                 sayi2 = randint(1, 11)
                 sayi1 += sayi2
-            else:
-                if sayi1 > 21 and devam_mi == 1:
-                    print("Kartınız: ", sayi1)
-                    print("Bust! Kazanan: ", kullanici_1)
-                    exit()
-
-                if sayi1 == 21 and devam_mi == 1:
-                    print("Kartınız: ", sayi1)
-                    print("Blackjack! Kazandınız!", kullanici_2)
-                    exit()
-
-                if devam_mi != 1:
-                    print("Kartınız: ", sayi1)
-                    print("Sıranız bitti!")
-                    break
 
         if sayi1 > 21 and devam_mi == 1:
             print("Kartınız: ", sayi1)
